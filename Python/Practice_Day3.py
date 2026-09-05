@@ -71,3 +71,22 @@
 #     print(n, "USD =", inr, "INR")
 # cur_converter(25)
 
+# def fact(n):
+#     if (n ==0 or n ==1):
+#         return 1
+#     return n * fact(n-1)
+# print(fact(5))
+
+# def sum(n):
+#     sum = (n*(n+1))/2
+#     print(sum)
+# sum(25)
+
+list =[1, 4, 9, 16, 25, 36, 49, 64, 81,100]
+
+def el(list, i=0):
+    if i == len(list):
+       return
+    print(list[i])
+    el(list, i-1)
+el(list)
